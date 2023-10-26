@@ -30,12 +30,12 @@
 }
 @media(max-width:1080px){
     .content__container{
-    margin:3rem 4rem 0 4rem;   
+    margin:3rem 3rem 0 3rem;   
     }
 }
 @media(max-width:950px){
     .content__container{
-        margin: 2rem 2rem 0 2rem;
+        margin: 2rem 1.5rem 0 1.5rem;
     }
 }
 @media(max-width:800px){

@@ -1,5 +1,5 @@
 .table__container {
-    overflow-x: auto;
+    overflow-x: hidden;
   }
 .table{
     display: block;
@@ -24,7 +24,7 @@
     width: 50px;
 }
 .tdata{
-    font-size: 14px;
+    font-size: 13px;
 }
 .pending{
     color: #ec9e0d;
@@ -54,7 +54,7 @@
     padding: 7px;
 }
 .trow{
-    font-size: 10px;
+    font-size: 9px;
 }
 .image{
     width: 25px;
@@ -66,7 +66,7 @@
 }
 @media(max-width:600px){
 .trow{
-    font-size: 9px;
+    font-size: 8px;
 }
 .tdata,
 .pending{
