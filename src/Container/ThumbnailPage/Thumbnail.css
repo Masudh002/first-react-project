@@ -36,43 +36,40 @@
     padding: 10px;
 }
 .trow{
-    font-size: 14px;
+    font-size: 13px;
 }
 .image{
     width: 30px;
 }
 .tdata{
-    font-size: 12px;
+    font-size: 11px;
 }
 .pending{
-    font-size: 12px;
+    font-size: 11px;
 }
 }
 @media(max-width:768px){
     .table th,
     .table td{
-    padding: 8px;
+    padding: 7px;
 }
 .trow{
-    font-size: 12px;
+    font-size: 11px;
 }
 .image{
     width: 25px;
 }
 .tdata,
 .pending{
-    font-size: 10px;
+    font-size: 9px;
 }
 }
 @media(max-width:600px){
 .trow{
-    font-size: 10px;
-}
-.image{
-    width: 25px;
+    font-size: 9px;
 }
 .tdata,
 .pending{
-    font-size: 8px;
+    font-size: 7px;
 }
 }
