@@ -70,11 +70,12 @@
 @media screen and (max-width: 450px) {
     .app__header-p h1 {
         font-size: 14px;
-        line-height: 11px;
+        line-height: 16px;
         letter-spacing: 1px;
+        margin-bottom: 5px;
     }
     .app__header-p p{
         font-size:12px;
-        line-height: 9px;
+        line-height: 14px;
     }
 }
