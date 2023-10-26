@@ -1,0 +1,36 @@
+.container{
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 80px 80px 160px;
+}
+.features-container{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:950px){
+    .features-container{
+        gap: 40px;
+    }
+}
+@media(max-width:900px) {
+    .features-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @media(max-width:800px){
+        .container{
+            padding:20px;
+        }
+        .features-container{
+            gap: 30px;
+        }
+    }
+}
+@media(max-width:600px){
+    .features-container{
+        gap: 20px;
+    }
+}

@@ -1,0 +1,77 @@
+.app__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.app__header-p{
+    padding:0 10rem;
+    color: var(--color-white);
+}
+.app__header-p h1{
+    font-size: 92px;
+    text-align: center;
+    font-family:var(--font-base);
+}
+.app__header-p p{
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    font-family: var(--font-alt);
+}
+.app__header-buttons{
+    margin-top:2rem;
+    flex-direction: row; 
+}
+.app__header-buttons button{
+    color: var(--color-white);
+    background: #0000ff;
+    padding:.8rem 1rem;
+    margin-right: 1rem;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    font-family: var(--font-alt);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.app__header-buttons span{
+    color: #fff;
+    padding: .5rem;
+    cursor: pointer;
+}
+@media screen and (min-width: 2000px) {
+    .app__header-p h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .app__header-p h1 {
+        font-size: 92px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__header-p h1 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+    .app__header-p p{
+        font-size: 20px;
+    }
+    .app__header-buttons button{
+        padding:.6rem .8rem;
+        margin-right: .8rem;
+        font-size: 12px;
+        line-height: 20px;
+    }    
+}
+@media screen and (max-width: 450px) {
+    .app__header-p h1 {
+        font-size: 22px;
+    }
+    .app__header-p p{
+        font-size:16px;
+    }
+}
