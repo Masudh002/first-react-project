@@ -54,11 +54,11 @@
 }
 @media screen and (max-width: 650px) {
     .app__header-p h1 {
-        font-size: 28px;
+        font-size: 18px;
         line-height: 20px;
     }
     .app__header-p p{
-        font-size: 20px;
+        font-size: 14px;
     }
     .app__header-buttons button{
         padding:.6rem .8rem;
@@ -69,9 +69,12 @@
 }
 @media screen and (max-width: 450px) {
     .app__header-p h1 {
-        font-size: 22px;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: 1px;
     }
     .app__header-p p{
-        font-size:16px;
+        font-size:12px;
+        line-height: 9px;
     }
 }
